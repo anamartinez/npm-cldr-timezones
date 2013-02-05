@@ -1,9 +1,9 @@
 var fs = require('fs'),
     assert = require('assert'),
-    cldr = require('./cldr_timezones.js');
+    cldr = require('./index.js');
 
 exports['it loads timezones'] = function() {
-  var names = fs.readdirSync('./cldr_timezones/');
+  var names = fs.readdirSync('./lib/');
   names.forEach(function(filename) {
     var locale = filename.match(/(.*)\.js/)[1];
     assert.deepEqual(cldr.load(locale), require('./cldr_timezones/' + filename));

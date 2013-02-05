@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git@github.com:anamartinez/npm-cldr-timezones.git"
   },
-  "main": "cldr_timezones.js",
+  "main": "index.js",
   "version": "0.0.0",
   "licenses": [
     {
@@ -21,10 +21,10 @@
     }
   ],
   "devDependencies": {
-    "mocha": "~1.8.1"
+    "mocha": "~1.8.1",
+    "gluejs": "~0.2.0"
   },
   "scripts": {
-    "test": "node cldr.test.js"
+    "test": "make test"
   }
-
 }
