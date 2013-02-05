@@ -1,6 +1,6 @@
 exports.load = function(locale){
   locale = friendlyLocale(locale);
-  return require('./cldr_timezones/' + locale + '_cldr_timezones');
+  return require('./cldr_timezones/' + locale);
 }
 
 function friendlyLocale (locale){

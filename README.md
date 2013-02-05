@@ -26,13 +26,13 @@ The hash has the timezone indentifier as the key and the translation as the valu
 
 Examples: 
     
-    cldr_timezones.es_cldr_timezones_hash["Europe/Moscow"] # "(GMT+04:00) Moscú"
+    cldr_timezones["Europe/Moscow"] # "(GMT+04:00) Moscú"
 
-    cldr_timezones.ja_cldr_timezones_hash["America/Cordoba"] # "（GMT-09:00）モスクワ"
+    cldr_timezones["America/Cordoba"] # "（GMT-09:00）モスクワ"
 
 There is also support for fallback.
 
-    cldr_timezones.es_MX_cldr_timezones_hash["Europe/Moscow"] # "(GMT+04:00) Moscú"
+    cldr_timezones["Europe/Moscow"] # "(GMT+04:00) Moscú"
 
 Author
 ======
