@@ -13,7 +13,7 @@
     "url": "git@github.com:anamartinez/npm-cldr-timezones.git"
   },
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "licenses": [
     {
       "type": "MIT",
