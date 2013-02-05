@@ -3,16 +3,16 @@ TESTS += timezone.test.js
 
 help:
 	@echo 'Usage: make build TZ=./lib/localename TZ+=./lib/localename'
-	@echo 'E.g.: make build TZ=./lib/en_US.js TZ+=./lib/en_US.js'
+	@echo 'E.g.: make build TZ=./lib/en_US.js TZ+=./lib/es_MX.js'
 
 build:
-	@echo 'Building dist/cldr.js'
+	@echo 'Building dist/timezone.js'
 	@./node_modules/gluejs/bin/gluejs \
 	--include ./index.js \
 	$(TZ) \
-	--global Cldr \
+	--global Timezone \
 	--main index.js \
-	--out dist/cldr.js
+	--out dist/timezone.js
 
 test:
 	@sudo -E ./node_modules/.bin/mocha \
