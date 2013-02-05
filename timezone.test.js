@@ -1,12 +1,12 @@
 var fs = require('fs'),
     assert = require('assert'),
-    cldr = require('./cldr_timezones.js');
+    cldr = require('./index.js');
 
 exports['it loads timezones'] = function() {
-  var names = fs.readdirSync('./cldr_timezones/');
+  var names = fs.readdirSync('./lib/');
   names.forEach(function(filename) {
     var locale = filename.match(/(.*)\.js/)[1];
-    assert.deepEqual(cldr.load(locale), require('./cldr_timezones/' + filename));
+    assert.deepEqual(cldr.load(locale), require('./lib/' + filename));
   });
 };
 
@@ -15,7 +15,7 @@ exports['it get frienly locale'] = function() {
   names.forEach(function(locale) {
     var friendly_locale = locale.replace(/-/g, "_");
     var timezones_hash = cldr.load(locale);
-    assert.deepEqual(cldr.load(locale), require('./cldr_timezones/' + friendly_locale + '.js'));
+    assert.deepEqual(cldr.load(locale), require('./lib/' + friendly_locale + '.js'));
   });
 };
 

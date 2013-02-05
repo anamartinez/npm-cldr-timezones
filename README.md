@@ -9,9 +9,9 @@ Usage
 =====
 
 This project supports over 573 languages.
-We provide a file with a hash that has the translations. 
+We provide a file with a hash that has the translations.
 You should load it doing
-    
+
     var cldr_timezones = require('cldr_timezones').load('locale')
 
 ```locale``` is a bcp-47 language tag. For example:
@@ -24,8 +24,8 @@ You should load it doing
 
 The hash has the timezone indentifier as the key and the translation as the value.
 
-Examples: 
-    
+Examples:
+
     cldr_timezones["Europe/Moscow"] # "(GMT+04:00) Moscú"
 
     cldr_timezones["America/Cordoba"] # "（GMT-09:00）モスクワ"
@@ -33,6 +33,18 @@ Examples:
 There is also support for fallback.
 
     cldr_timezones["Europe/Moscow"] # "(GMT+04:00) Moscú"
+
+How to build
+============
+
+You can create a file you can include for a web application using the Makefile.
+
+For example:
+
+    make build TZ=./lib/en_US.js TZ+=./lib/es_MX.js
+
+will create a build in `./dist/timezone.js` with just those two locales.
+
 
 Author
 ======
