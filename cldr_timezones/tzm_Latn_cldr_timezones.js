@@ -1,4 +1,4 @@
-var tzm_Latn_cldr_timezones_hash = {
+var tzm_Latn_cldr_timezones_hash = exports.tzm_Latn_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) Midway",
     "Pacific/Pago_Pago":"(GMT-11:00) Pago Pago",
     "Pacific/Honolulu":"(GMT-10:00) Honolulu",

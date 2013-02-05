@@ -1,4 +1,4 @@
-var te_IN_cldr_timezones_hash = {
+var te_IN_cldr_timezones_hash = exports.te_IN_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) మిడ్వే",
     "Pacific/Pago_Pago":"(GMT-11:00) పాగో పాగో",
     "Pacific/Honolulu":"(GMT-10:00) హోనోలులు",

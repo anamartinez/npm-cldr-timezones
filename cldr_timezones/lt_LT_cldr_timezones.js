@@ -1,4 +1,4 @@
-var lt_LT_cldr_timezones_hash = {
+var lt_LT_cldr_timezones_hash = exports.lt_LT_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) Jungtinių Valstijų mažosios aplinkinės salos (Midway)",
     "Pacific/Pago_Pago":"(GMT-11:00) Pago Pago",
     "Pacific/Honolulu":"(GMT-10:00) Honolulu",

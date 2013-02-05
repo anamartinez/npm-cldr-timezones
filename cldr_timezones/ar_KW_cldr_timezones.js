@@ -1,4 +1,4 @@
-var ar_KW_cldr_timezones_hash = {
+var ar_KW_cldr_timezones_hash = exports.ar_KW_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) ميدواي",
     "Pacific/Pago_Pago":"(GMT-11:00) باغو باغو",
     "Pacific/Honolulu":"(GMT-10:00) هونولولو",

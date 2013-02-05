@@ -1,4 +1,4 @@
-var ja_JP_cldr_timezones_hash = {
+var ja_JP_cldr_timezones_hash = exports.ja_JP_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) ミッドウェー",
     "Pacific/Pago_Pago":"(GMT-11:00) パゴパゴ",
     "Pacific/Honolulu":"(GMT-10:00) ホノルル",

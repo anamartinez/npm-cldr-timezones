@@ -1,4 +1,4 @@
-var zh_Hant_TW_cldr_timezones_hash = {
+var zh_Hant_TW_cldr_timezones_hash = exports.zh_Hant_TW_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) 中途島",
     "Pacific/Pago_Pago":"(GMT-11:00) 巴哥巴哥",
     "Pacific/Honolulu":"(GMT-10:00) 檀香山",

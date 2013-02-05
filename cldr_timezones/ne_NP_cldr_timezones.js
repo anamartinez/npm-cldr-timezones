@@ -1,4 +1,4 @@
-var ne_NP_cldr_timezones_hash = {
+var ne_NP_cldr_timezones_hash = exports.ne_NP_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) मिडवे",
     "Pacific/Pago_Pago":"(GMT-11:00) Pago Pago",
     "Pacific/Honolulu":"(GMT-10:00) होनोलुलु",

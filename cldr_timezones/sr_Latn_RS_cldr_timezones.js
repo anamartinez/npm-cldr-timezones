@@ -1,4 +1,4 @@
-var sr_Latn_RS_cldr_timezones_hash = {
+var sr_Latn_RS_cldr_timezones_hash = exports.sr_Latn_RS_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) Midvej",
     "Pacific/Pago_Pago":"(GMT-11:00) Pago Pago",
     "Pacific/Honolulu":"(GMT-10:00) Honolulu (SAD)",

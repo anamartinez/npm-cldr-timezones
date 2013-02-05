@@ -1,4 +1,4 @@
-var en_Dsrt_US_cldr_timezones_hash = {
+var en_Dsrt_US_cldr_timezones_hash = exports.en_Dsrt_US_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) 𐐣𐐮𐐼𐐶𐐩",
     "Pacific/Pago_Pago":"(GMT-11:00) Pago Pago",
     "Pacific/Honolulu":"(GMT-10:00) 𐐐𐐪𐑌𐐲𐑊𐐭𐑊𐐭",

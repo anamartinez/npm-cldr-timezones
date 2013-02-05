@@ -1,4 +1,4 @@
-var ta_LK_cldr_timezones_hash = {
+var ta_LK_cldr_timezones_hash = exports.ta_LK_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) மிட்வே",
     "Pacific/Pago_Pago":"(GMT-11:00) பேகோ பேகோ",
     "Pacific/Honolulu":"(GMT-10:00) ஹானலுலு",

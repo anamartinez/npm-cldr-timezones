@@ -1,4 +1,4 @@
-var kn_cldr_timezones_hash = {
+var kn_cldr_timezones_hash = exports.kn_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) ಮಿಡ್‌ವೇ",
     "Pacific/Pago_Pago":"(GMT-11:00) ಪಾಗೊ ಪಾಗೊ",
     "Pacific/Honolulu":"(GMT-10:00) ಹೊನಲುಲು",

@@ -1,4 +1,4 @@
-var zh_Hans_MO_cldr_timezones_hash = {
+var zh_Hans_MO_cldr_timezones_hash = exports.zh_Hans_MO_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) Midway",
     "Pacific/Pago_Pago":"(GMT-11:00) 帕果帕果",
     "Pacific/Honolulu":"(GMT-10:00) Honolulu",

@@ -1,4 +1,4 @@
-var ru_RU_cldr_timezones_hash = {
+var ru_RU_cldr_timezones_hash = exports.ru_RU_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) Мидуэй, о-ва",
     "Pacific/Pago_Pago":"(GMT-11:00) Паго-Паго",
     "Pacific/Honolulu":"(GMT-10:00) Гонолулу",

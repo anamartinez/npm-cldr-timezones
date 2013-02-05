@@ -1,4 +1,4 @@
-var kk_Cyrl_cldr_timezones_hash = {
+var kk_Cyrl_cldr_timezones_hash = exports.kk_Cyrl_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) Мидуэй",
     "Pacific/Pago_Pago":"(GMT-11:00) Паго-Паго",
     "Pacific/Honolulu":"(GMT-10:00) Гонолулу",

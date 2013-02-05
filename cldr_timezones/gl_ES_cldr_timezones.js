@@ -1,4 +1,4 @@
-var gl_ES_cldr_timezones_hash = {
+var gl_ES_cldr_timezones_hash = exports.gl_ES_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) Midway",
     "Pacific/Pago_Pago":"(GMT-11:00) Pago Pago",
     "Pacific/Honolulu":"(GMT-10:00) Honolulú",

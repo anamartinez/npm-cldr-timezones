@@ -1,4 +1,4 @@
-var az_Cyrl_cldr_timezones_hash = {
+var az_Cyrl_cldr_timezones_hash = exports.az_Cyrl_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) midvey",
     "Pacific/Pago_Pago":"(GMT-11:00) Pago Pago",
     "Pacific/Honolulu":"(GMT-10:00) Honolulu",

@@ -1,4 +1,4 @@
-var lv_LV_cldr_timezones_hash = {
+var lv_LV_cldr_timezones_hash = exports.lv_LV_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) Midveja",
     "Pacific/Pago_Pago":"(GMT-11:00) Pagopago",
     "Pacific/Honolulu":"(GMT-10:00) Honolulu",

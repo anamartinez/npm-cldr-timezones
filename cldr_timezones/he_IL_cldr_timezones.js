@@ -1,4 +1,4 @@
-var he_IL_cldr_timezones_hash = {
+var he_IL_cldr_timezones_hash = exports.he_IL_cldr_timezones_hash = {
     "Pacific/Midway":"(GMT-11:00) מידוויי",
     "Pacific/Pago_Pago":"(GMT-11:00) פאגו פאגו",
     "Pacific/Honolulu":"(GMT-10:00) פסיפי/הונולולו",
