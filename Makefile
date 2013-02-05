@@ -1,5 +1,5 @@
 TESTS += timezone.test.js
-#TZ += en_US_cldr_timezones.js
+#TZ += en_US.js
 
 help:
 	@echo 'Usage: make build TZ=./lib/localename TZ+=./lib/localename'
@@ -22,4 +22,4 @@ test:
 		--bail \
 		$(TESTS)
 
-.PHONY: test build
+.PHONY: test build help
