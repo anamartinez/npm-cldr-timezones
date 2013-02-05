@@ -1,0 +1,30 @@
+{
+  "name": "cldr_timezones",
+  "description": "Translated timezones according to CLDR",
+  "homepage": "https://github.com/anamartinez/npm-cldr-timezones",
+  "keywords": [
+    "i18n",
+    "timezones",
+    "cldr"
+  ],
+  "author": "Ana Martinez",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:anamartinez/npm-cldr-timezones.git"
+  },
+  "main": "cldr_timezones.js",
+  "version": "0.0.0",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "devDependencies": {
+    "mocha": "~1.8.1"
+  },
+  "scripts": {
+    "test": "node cldr.test.js"
+  }
+
+}
