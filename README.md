@@ -16,26 +16,22 @@ You should load it doing
 
 ```locale``` is a bcp-47 language tag. For example:
 
-    var cldr_timezones = require('cldr_timezones').load('es')
+    var es_timezones = require('cldr_timezones').load('es')
 
-    var cldr_timezones = require('cldr_timezones').load('es-MX')
+    es_timezones["Europe/Moscow"] # "(GMT+04:00) Moscú"
+    
+    var es_mx_timezones = require('cldr_timezones').load('es-MX')
+    
+    es_mx_timezones["Europe/Moscow"] # "(GMT+04:00) Moscú"
 
-    var cldr_timezones = require('cldr_timezones').load('ja')
+    var ja_timezones = require('cldr_timezones').load('ja')
+    
+    ja_timezones["America/Cordoba"] # "（GMT-09:00）モスクワ"
 
-The hash has the timezone indentifier as the key and the translation as the value.
-
-Examples:
-
-    cldr_timezones["Europe/Moscow"] # "(GMT+04:00) Moscú"
-
-    cldr_timezones["America/Cordoba"] # "（GMT-09:00）モスクワ"
-
-There is also support for fallback.
-
-    cldr_timezones["Europe/Moscow"] # "(GMT+04:00) Moscú"
+The hash has the timezone indentifier as the key and the translation as the value.    
 
 How to build
-============
+======
 
 You can create a file you can include for a web application using the Makefile.
 
@@ -52,4 +48,4 @@ Author
 acemacu@gmail.com<br/>
 License: MIT<br/>
 
-[![Build Status](https://travis-ci.org/anamartinez/js-cldr-timezones.png)](https://travis-ci.org/anamartinez/npm-cldr-timezones)
+[![Build Status](https://travis-ci.org/anamartinez/npm-cldr-timezones.png)](https://travis-ci.org/anamartinez/npm-cldr-timezones)
