@@ -48,4 +48,4 @@ Author
 acemacu@gmail.com<br/>
 License: MIT<br/>
 
-[![Build Status](https://travis-ci.org/anamartinez/npm-cldr-timezones.png)](https://travis-ci.org/anamartinez/npm-cldr-timezones)
+[![Build Status](https://travis-ci.org/anamartinez/npm-cldr-timezones.png?branch=master)](https://travis-ci.org/anamartinez/npm-cldr-timezones)
